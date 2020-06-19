@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*导航栏*/
+.nav{
+    width:100%;
+    height:60px;
+    z-index:1001;
+    /*border:1px solid red;*/
+}
+.nav-mid{
+    width:1200px;
+    height:58px;
+   /*border:1px solid black;*/
+    margin:0 auto;
+}
+.nav-left{
+    width:360px;
+    height:46px;
+    float:left;
+   /* border:1px solid green;*/
+    margin-top: 5px;
+}
+.nav-left>img{
+    width:359px;
+    height:46px;
+}
+ul{
+    list-style:none;
+}
+.nav-select{
+    float:right;
+    height:60px;
+    margin-right: 20px;
+}
+.nav-select>li{
+    float:left;
+    width:100px;
+    text-align: center;
+    height:55px;
+    line-height: 55px;
+    margin-right: 5px;
+}
+.nav-select a{
+    text-decoration: none;
+}
+.nav-select>li>a{
+    color:black;
+}
+.nav-select li:hover{
+    color:#00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+.nav-select li:hover a{
+    color:#00cf8c;
+}
+.active1{
+    border-bottom: 2px solid #00cf8c!important;
+}
+.active1>a{
+    color:#00cf8c!important;
+}
+.login{
+    width: 80px!important;
+    height: 30px!important;
+    background: #00cf8c;
+    margin-top: 15px!important;
+    margin-left:10px;
+    line-height: 30px!important;
+    color: #fff!important;
+    text-align: center!important;
+}
+.login a{
+    color:white!important;
+}
+/* /*导航栏结束* */
+#main_ad img{
+    height:400px;
+}
+
+.news{
+    width:90%;
+    margin:0 auto;
+    margin-bottom: 30px;
+    height:300px;
+}
+.mid-img{
+    margin-top: 20px;
+}
+.news-mid{
+    width:100%;
+    margin:0 auto;
+    height:300px;
+    margin-top: 40px;
+}
+.news-nav{
+    float:left;
+    border-right:2px solid #cccc;
+}
+.news-nav li{
+    height:50px;
+    width:140px;
+    margin-left:30px;
+}
+.news-nav li input{
+    height:19px;
+    width:19px;
+}
+.news-nav li span{
+    font-size: 20px;
+}
+.news-one{
+    width:900px;
+    height:150px;
+}
+.news-right{
+    width:900px;
+    height:150px;
+    margin-left:20px;
+    float: left;
+  border-bottom: 1px solid #cccc;
+  overflow: hidden;
+}
+.news-right>div{
+    width:100%;
+    height:1000%;
+}
+.news-one-img{
+    width:200px;
+    height:130px;
+    float:left;
+}
+.news-one-img img{
+    width:100%;
+    height:100%;
+}
+.news-one-content{
+    float:left;
+    margin-left: 20px;
+}
+.news-one-content h4{
+    color:#2d8cf0;
+    margin-bottom: 20px;
+}
+.time{
+    float:right;
+    margin-top:100px;
+}
+.page{
+    float:left;
+    color:#2d8cf0;
+    margin-top: 160px;
+    margin-left: -20px;
+}
+.box-pic1 {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    top: 65%;
+    background-color: #e6f7ff;
+    color: #00cf8c;
+}
+.box-fix {
+    position: relative;
+}
+
+
+.box-pic1 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.box-pic1 p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.box-pic2 {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    top: 75%;
+    background-color: #e6f7ff;
+    color: #00cf8c;
+}
+
+.QQ {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.box-pic2 p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.QQ1 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    right: 220px;
+    top: -130px;
+    display: none;
+}
+
+.QQ2 {
+    position: absolute;
+    right: 71px;
+    top: -130px;
+    width: 150px;
+    height: 200px;
+    display: none;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    width:100%;
+    height:150px;
+    background-color: #00cf8c;
+    margin-top:30px;
+}
+.lianjie{
+    width:60%;
+    margin-left:300px;
+    height:60px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.lianjie span{
+    color:white;
+}
+.lianjie a{
+    color:white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.banquan{
+    width:50%;
+    height:20px;
+    margin-left:380px;
+    color:white;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.youxiang{
+    width:50%;
+    height:20px;
+    margin-left:450px;
+    color:white;
+    font-size: 12px;
+}
+.footer-right{
+    width:100px;
+    float:right;
+    margin-top:-100px;
+    margin-right:60px;
+}
+.footer-right img{
+    width:80px;
+}
+.footer-right p{
+    color:white;
+    padding-left:5px;
+}

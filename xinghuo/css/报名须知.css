@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    width:100%;
+    height:60px;
+    z-index:1001;
+    /*border:1px solid red;*/
+}
+.nav-mid{
+    width:1200px;
+    height:58px;
+   /*border:1px solid black;*/
+    margin:0 auto;
+}
+.nav-left{
+    width:360px;
+    height:46px;
+    float:left;
+   /* border:1px solid green;*/
+    margin-top: 5px;
+}
+.nav-left>img{
+    width:359px;
+    height:46px;
+}
+ul{
+    list-style:none;
+}
+.nav-select{
+    float:right;
+    height:60px;
+    margin-right: 20px;
+}
+.nav-select>li{
+    float:left;
+    width:100px;
+    text-align: center;
+    height:55px;
+    line-height: 55px;
+    margin-right: 5px;
+}
+.nav-select a{
+    text-decoration: none;
+}
+.nav-select>li>a{
+    color:black;
+}
+.nav-select li:hover{
+    color:#00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+.nav-select li:hover a{
+    color:#00cf8c;
+}
+.active1{
+    border-bottom: 2px solid #00cf8c!important;
+}
+.active1>a{
+    color:#00cf8c!important;
+}
+.login{
+    width: 80px!important;
+    height: 30px!important;
+    background: #00cf8c;
+    margin-top: 15px!important;
+    margin-left:10px;
+    line-height: 30px!important;
+    color: #fff!important;
+    text-align: center!important;
+}
+.login a{
+    color:white!important;
+}
+.box1{
+    width:100%;
+    height:400px;
+    background: url(../images/创新创业大赛.jpg) center;
+    margin-top:10px;
+}
+section{
+    width:90%;
+    padding-top:40px;
+    margin:0 auto;
+    height:700px;
+   /* border:1px solid red;*/
+}
+.baoming{
+    margin-bottom:10px;
+}
+.back{
+    margin-left:60px;
+    color:#2d8cf0;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.box{
+    width:1050px;
+    height:500px;
+   /* border: 1px solid red;*/
+    margin:auto;
+}
+
+.bottom{
+    width:100%;
+    height:150px;
+    background-color: #00cf8c;
+}
+.lianjie{
+    width:60%;
+    margin-left:300px;
+    height:60px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.lianjie span{
+    color:white;
+}
+.lianjie a{
+    color:white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.banquan{
+    width:50%;
+    height:20px;
+    margin-left:380px;
+    color:white;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.youxiang{
+    width:50%;
+    height:20px;
+    margin-left:450px;
+    color:white;
+    font-size: 12px;
+}
+.footer-right{
+    width:100px;
+    float:right;
+    margin-top:-100px;
+    margin-right:60px;
+}
+.footer-right img{
+    width:80px;
+}
+.footer-right p{
+    color:white;
+    padding-left:5px;
+}

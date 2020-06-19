@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/个人中心.css" />
+    <title>大赛报名</title>
+</head>
+<body>
+      <!--网页导航-->
+      <div class="nav">
+        <div class="nav-mid">
+            <div class="nav-left">
+                <img src="../images/logo.png">
+            </div>
+                <ul class=nav-select>
+                    <li class=><a href="../html/shouye.html">新闻动态</a></li>
+                    <li class=""><a href="#">大赛报名</a></li>
+                    <li><a href="http://bbs.myhope365.com/">天亮社区</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li class="active1"><a href="../html/个人中心.html">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--个人信息-->
+        <section>
+            <div class="main">
+               <ul>
+                   <li class="select">
+                       <a><img src="../images/心形.png"> 基本信息</a>
+                   </li>
+                   <li>
+                       <a><img src="../images/心形.png"> 参赛信息</a>
+                   </li>
+               </ul> 
+<div class="info">
+     <div class="infoClassify">
+         <div class="box1 boxx">
+             <div class="content">
+                            <p
+                         style="font-size: 22px; margin-bottom: 30px; color: #515a65;" >
+                         基本信息 </p>
+                <div class="mid">
+                    <form>
+                        <label for="id">用户名:</label>
+                        <input type="text" disabled value="xingye" id="id" >
+                        <label for="identity">账号类别:</label>
+                        <input type="text" disabled value="选手" id="identity" >
+                        <label for="phone">手机号:</label>
+                        <input type="text" disabled required value="15030662250" id="phone" pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$">
+                        <label for="name">姓名:</label>
+                        <input type="text"  value="邢烨" required id="name"  class="selected">
+                        <label for="name1">身份证号:</label>
+                        <input type="text"  required value="13102519980817001X" id="name1" class="selected"pattern="\d{15}|\d{18}">
+                        <label for="email">邮箱:</label>
+                        <input type="text"  required value="1794576461@qq.com" id="email" class="selected" pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$">
+                        <label for="school">学校:</label>
+                        <input type="text"  required value="河北科技大学" id="school" class="selected">
+                        <label for="major">专业:</label>
+                        <input type="text"  required value="软件工程" id="major" class="selected">
+                        <label for="grade">年级:</label>
+                        <input type="text"  required value="16" id="grade" class="selected">
+                        <button style="margin-left:100px;">更新信息</button>
+                        <button style="margin-left:30px;" id="btn2">退出登录</button>
+                    </form>
+                </div>
+                </div>
+             </div>
+             <div class="box2 boxx">
+                 <div class="content">
+            <p style="font-size: 22px; margin-bottom: 30px; color: #515a65;">
+                    暂无参赛信息</p>
+                 </div>
+             </div>
+     </div>
+ </div>
+            </div>
+        </section>
+  <div class="bottom">
+              <div class="lianjie"><span>友情链接：</span>
+                  <a href="#">天亮公开资源</a>
+                  <a href="#">尚云科技</a>
+                  <a href="#">星云大数据平台</a>
+                  <a href="#">天亮舆情监控系统</a>
+                  <a href="#">IT毕业设计</a>
+                  <a href="#">网思安网络安全课堂</a>
+              </div>
+              <div class="banquan"><span>copyright@版权所有 天亮教育  网站标识码：23667788978   备案编号：冀ICP备2356645765765   </span></div>
+              <div class="youxiang"><span> 电子邮箱：623143506@qq.com  技术支持：河北尚云信息科技有限公司</span></div>
+              <div class="footer-right">
+                <img src="../images/微信公众号.jpg">
+                <p>微信公众号</p>
+              </div>
+          </div>
+</body>
+<script src="../lib/jquery/jquery.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<script>
+$("li").click(function(){
+    $(this).addClass("select").siblings().removeClass("select");
+    $(".boxx").eq($(this).index()).show().siblings().hide();
+})
+</script>
+</html>

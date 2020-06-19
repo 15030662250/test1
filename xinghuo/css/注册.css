@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none!important;
+}
+.nav{
+    width:100%;
+    height:60px;
+    z-index:1001;
+    /*border:1px solid red;*/
+}
+.nav-mid{
+    width:1200px;
+    height:58px;
+   /*border:1px solid black;*/
+    margin:0 auto;
+}
+.nav-left{
+    width:360px;
+    height:46px;
+    float:left;
+   /* border:1px solid green;*/
+    margin-top: 5px;
+}
+.nav-left>img{
+    width:359px;
+    height:46px;
+}
+ul{
+    list-style:none;
+}
+.nav-select{
+    float:right;
+    height:60px;
+    margin-right: 20px;
+}
+.nav-select>li{
+    float:left;
+    width:100px;
+    text-align: center;
+    height:53px;
+    line-height: 53px;
+    margin-right: 5px;
+}
+.nav-select a{
+    text-decoration: none;
+}
+.nav-select>li>a{
+    color:black;
+}
+.nav-select li:hover{
+    color:#00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+.nav-select li:hover a{
+    color:#00cf8c;
+}
+.active1{
+    border-bottom: 2px solid #00cf8c!important;
+}
+.active1>a{
+    color:#00cf8c!important;
+}
+.login{
+    width: 80px!important;
+    height: 30px!important;
+    background: #00cf8c;
+    margin-top: 15px!important;
+    margin-left:10px;
+    line-height: 30px!important;
+    color: #fff!important;
+    text-align: center!important;
+}
+.login a{
+    color:white!important;
+}
+.back {
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    padding: 30px;
+    height: 1000px;
+    margin-top:10px;
+}
+
+.studentIn {
+    padding: 30px 70px 10px 70px;
+    background-color: #fff;
+    border: 1px solid #99a2a3;
+    width: 400px;
+    margin: auto;
+    height: 720px;
+}
+
+.teacherIn {
+    padding: 30px 70px 10px 70px;
+    background-color: #fff;
+    border: 1px solid #99a2a3;
+    width: 400px;
+    margin: auto;
+    height: 720px;
+    display: none;
+}
+.companyIn{
+    padding: 30px 70px 10px 70px;
+    background-color: #fff;
+    border: 1px solid #99a2a3;
+    width: 400px;
+    margin: auto;
+    height: 720px;
+    display: none;
+}
+
+.text1 {
+    width: 88%;
+    height: 30px;
+    border: 1px solid #dcdee2;
+    border-left: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 19px;
+    outline-style: none;
+    margin-left: -2px;
+}
+
+.student {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.teacher {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.company {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.secelt {
+    color: #0469b3;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 2px solid #0469b3;
+}
+
+.text2 {
+    width: 55%;
+    height: 31px;
+    border: 1px solid #dcdee2;
+    border-left: none;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 20px;
+    outline-style: none;
+    margin-left: -4px;
+}
+
+.btn1 {
+    width: 32%;
+    background-color: #2b85e4;
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 31px;
+    outline-style: none;
+    color:white;
+}
+
+.local1 {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    color:black;
+}
+.btnn {
+    width: 100%;
+    background-color: #2b85e4;
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 31px;
+    outline-style: none;
+    margin-top: 10px;
+    color:white;
+}
+
+.img1 {
+    vertical-align: middle;
+    width: 29px;
+    height: 30px;
+    text-align: center;
+    line-height: 29px;
+    background: #f8f8f9;
+    display:inline-block;
+}
+
+
+
+
+.bottom{
+    width:100%;
+    height:150px;
+    background-color: #00cf8c;
+}
+.lianjie{
+    width:60%;
+    margin-left:300px;
+    height:60px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.lianjie span{
+    color:white;
+}
+.lianjie a{
+    color:white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.banquan{
+    width:50%;
+    height:20px;
+    margin-left:380px;
+    color:white;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.youxiang{
+    width:50%;
+    height:20px;
+    margin-left:450px;
+    color:white;
+    font-size: 12px;
+}
+.footer-right{
+    width:100px;
+    float:right;
+    margin-top:-100px;
+    margin-right:60px;
+}
+.footer-right img{
+    width:80px;
+}
+.footer-right p{
+    color:white;
+    padding-left:5px;
+}
